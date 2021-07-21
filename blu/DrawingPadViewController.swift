@@ -15,24 +15,24 @@ class DrawingPadViewController: UIViewController, PKCanvasViewDelegate, PKToolPi
     let canvasWidth: CGFloat = 768
     let canvasOverscrollHeight: CGFloat = 500
     
+    lazy var toolPicker: PKToolPicker = {
+           let toolPicker = PKToolPicker()
+            toolPicker.addObserver(self)
+            return toolPicker
+        }()
+    
     var drawing = PKDrawing()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        super.viewDidLoad()
+        view.addSubview(canvasView)
+        canvasView.frame = view.bounds
+        toolPicker.setVisible(true, forFirstResponder: canvasView)
+        toolPicker.addObserver(canvasView)
         canvasView.delegate = self
-        canvasView.drawing = drawing
-        
-        canvasView.alwaysBounceVertical = true
-        canvasView.drawingPolicy = .anyInput
-        
-        if let window = parent?.view.window,
-           let toolPicker = PKToolPicker.shared(for: window) {
-            toolPicker.setVisible(true, forFirstResponder: canvasView)
-            toolPicker.addObserver(canvasView)
-            
-            canvasView.becomeFirstResponder()
-        }
-        
+        canvasView.becomeFirstResponder()
     }
     
     @IBAction func saveDrawingToCameraRoll(_ sender: Any) {
