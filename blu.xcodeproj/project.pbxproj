@@ -18,6 +18,7 @@
 		8C9D687526A86F7200876E73 /* BlusterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D687426A86F7200876E73 /* BlusterViewController.swift */; };
 		8C9D687726A86F9900876E73 /* BlucareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D687626A86F9900876E73 /* BlucareViewController.swift */; };
 		8C9D687926A86FB500876E73 /* BlufindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D687826A86FB500876E73 /* BlufindViewController.swift */; };
+		8C9D687B26A8765500876E73 /* DrawingPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D687A26A8765500876E73 /* DrawingPadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		8C9D687426A86F7200876E73 /* BlusterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlusterViewController.swift; sourceTree = "<group>"; };
 		8C9D687626A86F9900876E73 /* BlucareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlucareViewController.swift; sourceTree = "<group>"; };
 		8C9D687826A86FB500876E73 /* BlufindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlufindViewController.swift; sourceTree = "<group>"; };
+		8C9D687A26A8765500876E73 /* DrawingPadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				8C9D685B26A749EF00876E73 /* SceneDelegate.swift */,
 				8C9D685D26A749EF00876E73 /* ViewController.swift */,
 				8C9D685F26A749EF00876E73 /* Main.storyboard */,
+				8C9D687A26A8765500876E73 /* DrawingPadViewController.swift */,
 				8C9D687826A86FB500876E73 /* BlufindViewController.swift */,
 				8C9D687626A86F9900876E73 /* BlucareViewController.swift */,
 				8C9D687426A86F7200876E73 /* BlusterViewController.swift */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C9D687B26A8765500876E73 /* DrawingPadViewController.swift in Sources */,
 				8C9D687526A86F7200876E73 /* BlusterViewController.swift in Sources */,
 				8C9D687926A86FB500876E73 /* BlufindViewController.swift in Sources */,
 				8C9D685E26A749EF00876E73 /* ViewController.swift in Sources */,

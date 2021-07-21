@@ -97,6 +97,14 @@
                                     <action selector="randomBtn:" destination="wcM-NH-XIs" eventType="touchUpInside" id="bDu-zF-rX8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJX-nL-fgk">
+                                <rect key="frame" x="142" y="625" width="131" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="start drawing!"/>
+                                <connections>
+                                    <segue destination="IwB-kl-oqv" kind="show" id="DGF-tV-7k2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="viD-vE-wTv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -109,6 +117,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="czw-zt-Ze1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="847.82608695652175" y="77.678571428571431"/>
+        </scene>
+        <!--Drawing Pad View Controller-->
+        <scene sceneID="yCD-bb-BUX">
+            <objects>
+                <viewController id="cY3-dT-ASR" customClass="DrawingPadViewController" customModule="blu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oMP-pC-Gqt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5UA-qs-q6H" customClass="PKCanvasView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rQm-sN-XkK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9cC-cW-luH">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="square.and.arrow.down" catalog="system" id="ceB-AO-8sl">
+                            <connections>
+                                <action selector="saveDrawingToCameraRoll:" destination="cY3-dT-ASR" id="CuO-Yz-AdC"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="canvasView" destination="5UA-qs-q6H" id="Pq6-gT-Nhk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MTI-SM-3eZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1763.7681159420292" y="737.94642857142856"/>
         </scene>
         <!--Blucare View Controller-->
         <scene sceneID="DYq-q3-Z2u">
@@ -185,8 +225,28 @@
             </objects>
             <point key="canvasLocation" x="2962" y="78"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Vjw-od-9Mc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IwB-kl-oqv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="abe-e0-4Jv"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VHF-EJ-Oyx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cY3-dT-ASR" kind="relationship" relationship="rootViewController" id="0gp-i3-ysh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AmM-Es-9oX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="853.62318840579712" y="737.94642857142856"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="square.and.arrow.down" catalog="system" width="121" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
