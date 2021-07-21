@@ -77,21 +77,42 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="78.348214285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Prompt Drawing Pad View Controller-->
         <scene sceneID="y0t-Te-pbu">
             <objects>
-                <viewController id="wcM-NH-XIs" sceneMemberID="viewController">
+                <viewController id="wcM-NH-XIs" customClass="PromptDrawingPadViewController" customModule="blu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fzK-EP-ihr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xN-3b-e2L">
+                                <rect key="frame" x="129" y="198" width="156" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="tap for a prompt"/>
+                                <connections>
+                                    <action selector="randomPromptBtnTapped:" destination="wcM-NH-XIs" eventType="touchUpInside" id="Kru-Gl-pyq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7r8-6c-WlG">
+                                <rect key="frame" x="84" y="298" width="247" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="viD-vE-wTv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="DZm-pj-3Xp"/>
+                    <connections>
+                        <outlet property="label" destination="7r8-6c-WlG" id="qvR-Ku-AxQ"/>
+                        <outlet property="randomPromptTapped" destination="7r8-6c-WlG" id="Rex-aY-Oyb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="czw-zt-Ze1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="848" y="78"/>
+            <point key="canvasLocation" x="847.82608695652175" y="77.678571428571431"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DYq-q3-Z2u">

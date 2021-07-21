@@ -14,6 +14,7 @@
 		8C9D686426A749EF00876E73 /* blu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D686226A749EF00876E73 /* blu.xcdatamodeld */; };
 		8C9D686626A749F100876E73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9D686526A749F100876E73 /* Assets.xcassets */; };
 		8C9D686926A749F100876E73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9D686726A749F100876E73 /* LaunchScreen.storyboard */; };
+		8C9D687126A8683500876E73 /* PromptDrawingPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D687026A8683500876E73 /* PromptDrawingPadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8C9D686526A749F100876E73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C9D686826A749F100876E73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C9D686A26A749F100876E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C9D687026A8683500876E73 /* PromptDrawingPadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptDrawingPadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				8C9D685926A749EF00876E73 /* AppDelegate.swift */,
 				8C9D685B26A749EF00876E73 /* SceneDelegate.swift */,
 				8C9D685D26A749EF00876E73 /* ViewController.swift */,
+				8C9D687026A8683500876E73 /* PromptDrawingPadViewController.swift */,
 				8C9D685F26A749EF00876E73 /* Main.storyboard */,
 				8C9D686526A749F100876E73 /* Assets.xcassets */,
 				8C9D686726A749F100876E73 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				8C9D685E26A749EF00876E73 /* ViewController.swift in Sources */,
 				8C9D685A26A749EF00876E73 /* AppDelegate.swift in Sources */,
 				8C9D685C26A749EF00876E73 /* SceneDelegate.swift in Sources */,
+				8C9D687126A8683500876E73 /* PromptDrawingPadViewController.swift in Sources */,
 				8C9D686426A749EF00876E73 /* blu.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
