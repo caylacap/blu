@@ -14,7 +14,10 @@
 		8C9D686426A749EF00876E73 /* blu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D686226A749EF00876E73 /* blu.xcdatamodeld */; };
 		8C9D686626A749F100876E73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9D686526A749F100876E73 /* Assets.xcassets */; };
 		8C9D686926A749F100876E73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9D686726A749F100876E73 /* LaunchScreen.storyboard */; };
-		8C9D687126A8683500876E73 /* PromptDrawingPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D687026A8683500876E73 /* PromptDrawingPadViewController.swift */; };
+		8C9D687326A86D9800876E73 /* RandomPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D687226A86D9800876E73 /* RandomPromptViewController.swift */; };
+		8C9D687526A86F7200876E73 /* BlusterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D687426A86F7200876E73 /* BlusterViewController.swift */; };
+		8C9D687726A86F9900876E73 /* BlucareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D687626A86F9900876E73 /* BlucareViewController.swift */; };
+		8C9D687926A86FB500876E73 /* BlufindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D687826A86FB500876E73 /* BlufindViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +30,10 @@
 		8C9D686526A749F100876E73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C9D686826A749F100876E73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C9D686A26A749F100876E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C9D687026A8683500876E73 /* PromptDrawingPadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptDrawingPadViewController.swift; sourceTree = "<group>"; };
+		8C9D687226A86D9800876E73 /* RandomPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPromptViewController.swift; sourceTree = "<group>"; };
+		8C9D687426A86F7200876E73 /* BlusterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlusterViewController.swift; sourceTree = "<group>"; };
+		8C9D687626A86F9900876E73 /* BlucareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlucareViewController.swift; sourceTree = "<group>"; };
+		8C9D687826A86FB500876E73 /* BlufindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlufindViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				8C9D685926A749EF00876E73 /* AppDelegate.swift */,
+				8C9D687226A86D9800876E73 /* RandomPromptViewController.swift */,
 				8C9D685B26A749EF00876E73 /* SceneDelegate.swift */,
 				8C9D685D26A749EF00876E73 /* ViewController.swift */,
-				8C9D687026A8683500876E73 /* PromptDrawingPadViewController.swift */,
 				8C9D685F26A749EF00876E73 /* Main.storyboard */,
+				8C9D687826A86FB500876E73 /* BlufindViewController.swift */,
+				8C9D687626A86F9900876E73 /* BlucareViewController.swift */,
+				8C9D687426A86F7200876E73 /* BlusterViewController.swift */,
 				8C9D686526A749F100876E73 /* Assets.xcassets */,
 				8C9D686726A749F100876E73 /* LaunchScreen.storyboard */,
 				8C9D686A26A749F100876E73 /* Info.plist */,
@@ -143,10 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C9D687526A86F7200876E73 /* BlusterViewController.swift in Sources */,
+				8C9D687926A86FB500876E73 /* BlufindViewController.swift in Sources */,
 				8C9D685E26A749EF00876E73 /* ViewController.swift in Sources */,
 				8C9D685A26A749EF00876E73 /* AppDelegate.swift in Sources */,
 				8C9D685C26A749EF00876E73 /* SceneDelegate.swift in Sources */,
-				8C9D687126A8683500876E73 /* PromptDrawingPadViewController.swift in Sources */,
+				8C9D687326A86D9800876E73 /* RandomPromptViewController.swift in Sources */,
+				8C9D687726A86F9900876E73 /* BlucareViewController.swift in Sources */,
 				8C9D686426A749EF00876E73 /* blu.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
