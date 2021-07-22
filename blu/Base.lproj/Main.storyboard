@@ -60,6 +60,14 @@
                                     <segue destination="QNg-tS-c6c" kind="show" id="9OK-dq-DKn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhg-0A-aGj">
+                                <rect key="frame" x="169" y="552" width="66" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="blü-beats"/>
+                                <connections>
+                                    <segue destination="a3r-Yb-oJU" kind="show" id="VG1-qy-fGL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.75686274509803919" green="0.88235294117647056" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -243,14 +251,128 @@
                     <view key="view" contentMode="scaleToFill" id="0cK-dq-t7O">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="blu-find" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4q-nR-5NV">
+                                <rect key="frame" x="172" y="79" width="71" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hotlines" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cul-ZL-JW6">
+                                <rect key="frame" x="20" y="108" width="63" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xe6-rX-rYE">
+                                <rect key="frame" x="20" y="137" width="374" height="387"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">- Substance abuse and mental health services - SAMHSA’s National Helpline: 1-800-662-HELP (4357)
+- Dating Abuse and Domestic Violence (loveisrespect): 1-866-331-9474
+- National Suicide Prevention Lifeline: 1-800-273-8255 
+- The Trevor Project offers support to the LGBTQ young adult community: 866-488-7386
+- Eating Disorder Hotline National Eating Disorder Association: 1-800-931-2237
+- National Alliance on Mental Illness: 1-800-950-6264
+- Crisis Text Line: Text SUPPORT to 741-741
+- Sexual Assault Hotline. Rape, Abuse and Incest National Network: 1-800-656-4673
+- Veterans Association: 1-800-273-8255</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUM-BN-zvt">
+                                <rect key="frame" x="20" y="532" width="80" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xIz-ms-7B5">
+                                <rect key="frame" x="30" y="561" width="205" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="- Black Mental Health Alliance"/>
+                                <connections>
+                                    <action selector="firstBtn:" destination="tGO-kk-0A9" eventType="touchUpInside" id="NcA-7V-zJe"/>
+                                    <action selector="firstBtn:" destination="QNg-tS-c6c" eventType="touchUpInside" id="brl-Se-t8J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ps-lE-Yb3">
+                                <rect key="frame" x="30" y="591" width="247" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="- Center for Women's Mental Health"/>
+                                <connections>
+                                    <action selector="secondBtn:" destination="QNg-tS-c6c" eventType="touchUpInside" id="puc-ul-mrL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dO2-rV-kE8">
+                                <rect key="frame" x="30" y="619" width="150" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="- Heart's Survior Care"/>
+                                <connections>
+                                    <action selector="thirdBtn:" destination="QNg-tS-c6c" eventType="touchUpInside" id="8jC-OG-Na1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qd6-5t-O5W">
+                                <rect key="frame" x="30" y="646" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="- OK2Talk"/>
+                                <connections>
+                                    <action selector="fourthBtn:" destination="QNg-tS-c6c" eventType="touchUpInside" id="IgM-gN-7o3"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Zox-QL-iV9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="nTe-Ri-3qj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ttZ-tQ-2vp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="tGO-kk-0A9" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2962" y="78"/>
+            <point key="canvasLocation" x="2960.8695652173915" y="77.678571428571431"/>
+        </scene>
+        <!--Blu Beats View Controller-->
+        <scene sceneID="h47-zA-MpK">
+            <objects>
+                <viewController id="a3r-Yb-oJU" customClass="BluBeatsViewController" customModule="blu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rtl-uf-aCp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="playlists to de-stress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qhN-Ae-bC4">
+                                <rect key="frame" x="128" y="106" width="159" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIR-40-17r">
+                                <rect key="frame" x="79" y="174" width="257" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Screen Shot 2021-07-22 at 11.53.22 AM"/>
+                                <connections>
+                                    <action selector="firstBtn:" destination="a3r-Yb-oJU" eventType="touchUpInside" id="Wxv-OF-Cgu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4q-ei-MO3">
+                                <rect key="frame" x="79" y="477" width="257" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Screen Shot 2021-07-22 at 11.57.36 AM"/>
+                                <connections>
+                                    <action selector="secondBtn:" destination="a3r-Yb-oJU" eventType="touchUpInside" id="7ih-o5-J68"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tpB-WJ-b5N"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="CC8-5U-SSS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jaq-4T-WwM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="750.66964285714278"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Vjw-od-9Mc">
@@ -273,6 +395,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Screen Shot 2021-07-22 at 11.53.22 AM" width="988" height="988"/>
+        <image name="Screen Shot 2021-07-22 at 11.57.36 AM" width="978" height="980"/>
         <image name="square.and.arrow.down" catalog="system" width="121" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -1,14 +1,14 @@
 //
-//  BlufindViewController.swift
+//  BluBeatsViewController.swift
 //  blu
 //
-//  Created by Cayla Capistrano on 7/21/21.
+//  Created by Cayla Capistrano on 7/22/21.
 //
 
 import UIKit
 import SafariServices
 
-class BlufindViewController: UIViewController {
+class BluBeatsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,19 +17,11 @@ class BlufindViewController: UIViewController {
     }
     
     @IBAction func firstBtn(_ sender: UIButton) {
-        showSafariVC(for: "https://blackmentalhealth.com/")
+        showSafariVC(for: "https://open.spotify.com/playlist/37i9dQZF1DWXe9gFZP0gtP?si=2e218a6184ea4e05")
     }
     
     @IBAction func secondBtn(_ sender: UIButton) {
-        showSafariVC(for: "https://womensmentalhealth.org/")
-    }
-    
-    @IBAction func thirdBtn(_ sender: UIButton) {
-        showSafariVC(for: "https://hearttogrow.org/")
-    }
-    
-    @IBAction func fourthBtn(_ sender: UIButton) {
-        showSafariVC(for: "https://ok2talk.org/")
+        showSafariVC(for: "https://open.spotify.com/playlist/37i9dQZF1DX0YwbagSTSJv?si=d2c2fd32c09f427e")
     }
     
     
