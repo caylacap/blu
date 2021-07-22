@@ -334,22 +334,6 @@
                                 <color key="textColor" red="0.0" green="0.28627450980000002" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xe6-rX-rYE">
-                                <rect key="frame" x="20" y="184" width="374" height="387"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">- Substance abuse and mental health services - SAMHSA’s National Helpline: 1-800-662-HELP (4357)
-- Dating Abuse and Domestic Violence (loveisrespect): 1-866-331-9474
-- National Suicide Prevention Lifeline: 1-800-273-8255 
-- The Trevor Project offers support to the LGBTQ young adult community: 866-488-7386
-- Eating Disorder Hotline National Eating Disorder Association: 1-800-931-2237
-- National Alliance on Mental Illness: 1-800-950-6264
-- Crisis Text Line: Text SUPPORT to 741-741
-- Sexual Assault Hotline. Rape, Abuse and Incest National Network: 1-800-656-4673
-- Veterans Association: 1-800-273-8255</mutableString>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
-                                <color key="textColor" red="0.0" green="0.28627450980000002" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUM-BN-zvt">
                                 <rect key="frame" x="154" y="623" width="107" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -402,6 +386,22 @@
                                     <action selector="fourthBtn:" destination="QNg-tS-c6c" eventType="touchUpInside" id="IgM-gN-7o3"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xe6-rX-rYE">
+                                <rect key="frame" x="31" y="171" width="352" height="423"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text"> SAMHSA’s National Helpline:                             1-800-662-HELP (4357)
+Dating Abuse and Domestic Violence: 1-866-331-9474
+National Suicide Prevention Lifeline:          1-800-273-8255 
+The Trevor Project offers support to the LGBTQ young adult community: 866-488-7386
+Eating Disorder Hotline National Eating Disorder Association:                 1-800-931-2237
+National Alliance on Mental Illness:                  1-800-950-6264
+Crisis Text Line:                      Text SUPPORT to 741-741
+Sexual Assault Hotline. Rape, Abuse and Incest National Network:              1-800-656-4673
+Veterans Association: 1-800-273-8255</mutableString>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.28627450980000002" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Zox-QL-iV9"/>
                         <color key="backgroundColor" red="0.68627450980392157" green="0.77647058823529413" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
